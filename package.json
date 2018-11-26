@@ -1,0 +1,33 @@
+{
+  "name": "dev-connector-new",
+  "version": "1.0.0",
+  "description": "Socail Network",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaushal-Solanki/Dev-Connector-New.git"
+  },
+  "author": "kaushal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kaushal-Solanki/Dev-Connector-New/issues"
+  },
+  "homepage": "https://github.com/Kaushal-Solanki/Dev-Connector-New#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.13",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
